@@ -1,0 +1,19 @@
+name: setup-eurekaka
+
+on: push
+
+jobs:
+  build:
+    name: build the eurekaka
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout master
+        uses: actions/checkout@master
+
+      - name: zola deploy action
+        uses: shalzz/zola-deploy-action@master
+        env:
+          PAGES_BRANCH: gh-pages
+#          TOKEN: ${{ secrets.SECRET_ACTION }}
+
+
