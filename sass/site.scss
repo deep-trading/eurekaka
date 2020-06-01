@@ -1,0 +1,288 @@
+.navbar-light {
+  padding: 20px 0px;
+
+  .navbar-brand {
+    color: #EB586F !important;
+    font-size: 32px;
+    line-height: 20px;
+    font-weight: 700;
+    padding:20px 15px;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: #444444;
+      font-size: 14px;
+      margin-right: 18px;
+      font-weight: 400;
+      padding:18px 0px;
+    }
+
+    .nav-link:hover {
+      color: #EB586F
+    }
+  }
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+#carousel-area {
+  background: #2c3e50;
+
+  .carousel-indicators {
+    bottom: 5px;
+
+    li {
+      width: 32px;
+      height: 5px;
+      margin: 0px 5px;
+      border: none;
+      border-radius: 0px;
+    }
+  }
+
+  .carousel-caption {
+    top: 28%;
+    left: 10%;
+    right: 10%;
+    text-shadow: none;
+
+    h3 {
+      font-size: 50px;
+      margin-bottom: 15px;
+      color: #f5f5f5;
+      font-weight: 700;
+
+      .text-primary {
+        color: #EB586F !important;
+      }
+    }
+
+    h5 {
+      color: #f5f5f5;
+      line-height: 24px;
+      font-weight: 400;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .btn-lg {
+      margin: 10px;
+      font-size: 18px;
+      min-width: 198px;
+      padding: 15px 11px;
+      font-weight: 400;
+      border-radius: 0;
+    }
+
+    .btn-default-filled, .btn-default-filled:active, .btn-default-filled:focus {
+      color: #f5f5f5;
+      background: #EB586F;
+      border: 2px solid #EB586F;
+    }
+
+    .btn-common, .btn-common:active, .btn-common:focus {
+      color: #EB586F;
+      border: 2px solid #EB586F;
+      background: transparent;
+    }
+  }
+}
+
+
+
+.features-header {
+  background: #f5f5f5;
+  margin: 30px 0;
+  padding: 30px 30px
+}
+
+.sub-title {
+  margin-bottom: 40px;
+  //color: #999;
+  font-size: 24px;
+  font-weight: 400
+}
+
+.service-box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  .service-icon {
+    float: left;
+    margin-top: 5px;
+
+    i {
+      font-size: 32px;
+      color: #EB586F
+    }
+
+  }
+
+  .service-content {
+    padding-left: 48px;
+
+    h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+
+      a {
+        color:#444;
+      }
+
+      a:hover {
+        color:#EB586F
+      }
+    }
+  }
+
+}
+
+
+#counter {
+  background-image: url("assets/testimonial-bg.jpg");
+  background-size: cover;
+  padding: 60px 0;
+
+  .sub-title {
+    color: #999999;
+  }
+
+  .count-one {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .icon {
+      margin-bottom: 20px;
+      display: block;
+
+      i {
+        color: #EB586F;
+        font-size: 48px;
+      }
+    }
+
+    .count-value {
+      color: white;
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .timer {
+      line-height: 1.2;
+      margin-top: 0;
+    }
+
+    .width25-divider {
+      margin: 20px auto;
+      width: 25px;
+      border-color: white;
+    }
+
+    .count-title {
+      font-size: 14px;
+      color: white;
+    }
+  }
+}
+
+
+#cooperators {
+  margin-bottom: 40px;
+
+  .row {
+    padding: 10px 10px;
+    margin-bottom: 40px;
+  }
+
+  .cooperator-info {
+    margin-top: 30%;
+    padding: 15px 15px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      color: #EB586F;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      color: #444444;
+      text-align: left;
+    }
+  }
+}
+
+#contact {
+
+  .contact-info {
+
+    address {
+      font-size: 14px;
+      color: #444444;
+      position: relative;
+      line-height: 1.8;
+      margin-bottom: 15px;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+
+    .tel-info {
+      margin-bottom: 15px;
+    }
+
+    a {
+      display: block;
+      font-size: 14px;
+      color: #444444;
+      position: relative;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.default-footer {
+  background: #232935;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  .footer-logo {
+    color: #EB586F !important;
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding:20px 15px;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .copy-right {
+    font-size: 12px;
+    color: #bac0cb;
+
+    a {
+      color: #EB586F;
+    }
+  }
+
+}
+
+.dis-blk {
+  display: block;
+  margin-bottom: 30px;
+}
