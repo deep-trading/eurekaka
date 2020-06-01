@@ -14,6 +14,6 @@ jobs:
         uses: shalzz/zola-deploy-action@master
         env:
           PAGES_BRANCH: gh-pages
-#          TOKEN: ${{ secrets.SECRET_ACTION }}
+          TOKEN: ${{ secrets.SECRET_ACTION }}
 
 
